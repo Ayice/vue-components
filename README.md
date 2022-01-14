@@ -1,4 +1,4 @@
-# Ayice-components
+# Ayice-vue
 
 Library of Vue components to use in your projects.
 
