@@ -15,6 +15,7 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "paths": {
       "@/*": [
         "src/*"
@@ -26,7 +27,6 @@
       "dom.iterable",
       "scripthost"
     ],
-    "skipLibCheck": true
   },
   "include": [
     "vite.config.*",
