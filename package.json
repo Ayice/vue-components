@@ -1,6 +1,7 @@
 {
   "name": "ayice-vue",
   "version": "0.0.6",
+  "repository": "https://github.com/Ayice/vue-components",
   "scripts": {
     "dev": "vite",
     "build-lib": "vite build",
@@ -12,12 +13,11 @@
   "main": "./dist/ayice.es.js",
   "types": "dist/src/index.d.ts",
   "files": [
-    "dist/",
-    "src/",
-    "public/",
-    "*.json",
-    "*.js"
+    "dist/"
   ],
+  "peerDependencies": {
+    "vue": "^3.2.26"
+  },
   "dependencies": {
     "vue": "^3.2.26"
   },
