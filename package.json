@@ -2,6 +2,7 @@
   "name": "ayice-vue",
   "version": "0.0.7",
   "repository": "https://github.com/Ayice/vue-components",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build-lib": "vite build",
